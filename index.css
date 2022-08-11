@@ -1,0 +1,26 @@
+.tags{
+max-width: 500px;
+width: auto;
+}
+.html{
+    max-width: 500px;
+    width: auto;
+}
+.Main{
+  color: rgb(244, 0, 0);
+}
+.tbody{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.css{
+  max-width: 500px;
+  width: auto;
+}
+*{
+  text-align: center;
+  box-sizing:inherit;
+ margin-top: auto ;
+}
+p{
+  text-align:center;
+}
