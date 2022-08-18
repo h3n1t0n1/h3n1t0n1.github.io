@@ -1,44 +1,75 @@
-<title>My Cheatsheet</title>
-<h1 class="Main">My cheatsheet</h1>
-<table>
-<head>
-<link rel="stylesheet" href="./index.css">
-</head> 
-<body class="body">
-<div>
-<h2>HTML</h2>
-<p>HTML is the used to give the web browser an idea of what structure it will be</p>
-    </div>
-        <h2>basic html structure</h2>
-            <div><img class="html" src="./pictures/Basic html  structure pic.jpg" alt="">
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href=".//styles.css">
+    </head>
+    <body>
+        <h1>My website Style Guide</h1>
+       <div class="container">
+            <h2>Colors</h2>
+            <div class="color-container">
+                <div class="color-box DarkRed">
+                    <p class="label">Dark Red</p>
+                    <p class="bottom-label">#8B000</p>
+                </div>
+                 <div class="color-box DimGrey">
+                    <p class="label">Dim Grey</p>
+                    <p class="bottom-label">A9A9A9</p>
+                </div>
+                <div class="color-box Maroon">
+                    <p class="label">Maroon</p>
+                    <p class="bottom-label">#800000</p>
+                </div>
+                 <div class="color-box DarkGoldenRod">
+                    <p class="label">Dark Golden Rod</p>
+                    <p class="bottom-label">#b8860B</p>
+                </div>
 
-        
-    </div>
-    <div>
-        <h2>html Tags & Descriptions</h2><p>This is the basic descriptions of what the tags do for html</p>
-        <img class="tags" src="./pictures/0_eU6H-gxRpslRHfNT.jpg" alt="">
-        <p>these tags are whats used to build the proper html format for websites</p>
-    </div>
-    <div>
-        <h3>CSS Selectors and specificity</h3>
-        <img class="css" src="./pictures/CSS tags.jpg" alt="">
-        <p>There are a bunch of different css syntax and selectors, but the main purpose of CSS, or Cascading Style Sheets, is a language that is used in combination with HTML that customizes how HTML elements will appear. CSS can define styles and change the layout and design of a sheet. </p>
-        <h3>Link Elements</h3>
-        <p>
-            The <link> element is used to link HTML documents to external resources like CSS files. It commonly uses:   
-        </p>
-        <ul>
-            <li>href attribute to specify the URL to the external resource</li>
-            <li>rel attribute to specify the relationship of the linked document to the current document</li>
-            <li>type attribute to define the type of content being linked</li>
-        </ul>
-        <h3>Write CSS in seperate Files</h3>
-        <p>CSS code can be written in its own files to keep it separate from the HTML code. The extension for CSS files is .css. These can be linked to an HTML file using a <link> tag in the <head> section.</p>
-         <h3>CSS type selectors</h3>  
-         <p>CSS type selectors are used to match all elements of a given type or tag name. Unlike for HTML syntax, we do not include the angle brackets when using type selectors for tag names. When using type selectors, elements are matched regardless of their nesting level in the HTML</p>
-        <h3>CSS class selectors</h3>
-        <p>The CSS class selector matches elements based on the contents of their class attribute. For selecting elements having calendar-cell as the value of the class attribute, a . needs to be prepended.</p>
-            <h3></h3>
+             </div>
+         <div class="container">
+            <h2>Fonts</h2>
+            <div class="font-container">
+                <p class="font-label source-code-pro">Source Code Pro</p>
+                <p class="bold source-code-pro">This is What it looks like in bold</p>
+                <p class="italic source-code-pro">This is what it looks like with italics</p>
+                <p class="normal source-code-pro">this is what it looks like with normal</p>
+                <p class="font-label nunito-sans">Nunito Sans</p>
+                <p class="bold nunito-sans">This is What it looks like in bold</p>
+                <p class="italic nunito-sans">This is what it looks like with italics</p>
+                <p class="normal nunito-sans">this is what it looks like with normal</p>
+                <p class="font-label poppins">Poppins</p>
+                <p class="bold poppins">This is What it looks like in bold</p>
+                <p class="italic poppins">This is what it looks like with italics</p>
+                <p class="normal poppins">this is what it looks like normal</p>
+            </div>
         </div>
-</body>
+        <div class="container">
+            <h2>Text Styles</h2>
+            <div class="text-container"></div>
+            <h2>H1: Main page heading</h2>
+            <ul>
+                <li>Font-weight: 700 (bold)</li>
+                <li>font-size: 20px</li>
+                <li>font-family: nunito-sans</li>
+            </ul>
+                <h3>H2: subheading</h3>
+                <ul>
+                    <li>font-weight:500</li>
+                    <li>font-size:18px</li>
+                    <li>font-family:poppins</li>
+                </ul>
+            <h4>P: Paragraph text</h4>
+            <ul>   
+                <li>font-weight:400 (regular)</li>
+                <li>font-size:14px</li>
+                <li>font-family:poppins</li>
+            </ul>
+            
+        </div>
+        </div>
+    </body>
 
+</html>
